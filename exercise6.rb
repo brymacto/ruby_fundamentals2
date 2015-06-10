@@ -17,7 +17,6 @@ print_grocery_list(grocery_list)
 puts "You need to pick up #{grocery_list.length} items"
 
 # Check for bananas
-
 puts (grocery_list.include?("bananas") ? "You don't need to pick up bananas today" : "You need to pick up bananas today")
 puts "The second item in the list is #{grocery_list[1]}"
 
@@ -28,7 +27,7 @@ print_grocery_list(grocery_list)
 
 # Can't find pie, so delete it from the list
 puts "Pie cannot be found, it will now be removed from the grocery list."
-grocery_list.delete("coke")
+grocery_list.delete("pie")
 print_grocery_list(grocery_list)
 
 
